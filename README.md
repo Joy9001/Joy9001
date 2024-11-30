@@ -1,3 +1,5 @@
+<h1 align="center">Hi 👋, I'm Joy</h1>
+
 # 💫 About Me:
 Aspiring Software Developer<br>Currently working as SDE Intern @Qbtrix Innovations
 
