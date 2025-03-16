@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Joy Mridha</h1>
-<h3 align="center">Motivated Computer Science undergraduate passionate about creating exceptional digital experiences</h3>
+<h1 align="center">Hi 👋, I'm Joy</h1>
 
 ## 💫 About Me
 - 🏢 Currently working as **SDE Intern @Qbtrix Innovations** (September 2024-Present)
