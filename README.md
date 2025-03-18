@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Joy <img src="https://media.giphy.com/media/hvRJclFz9vDwi5c3lT/giphy.gif" width="30px"></h1>
+<h1 align="center">Hi 👋, I'm Joy</h1>
 <h3 align="center">A passionate Software Developer exploring the exciting world of technology!</h3>
 
 <p align="center">
