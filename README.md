@@ -17,7 +17,8 @@
 
 ## 🏢 About Me
 
-- 💼 Currently working as **SDE Intern @ Qbtrix Innovations** (September 2024 - Present)
+- 💼 Working as **Associate Software Engineer @ Couture.ai** (May 2025 - Current) 
+- 💼 Worked as **SDE Intern @ Qbtrix Innovations** (September 2024 - May 2025)
 - 🎓 Pursuing **B.Tech in Computer Science and Engineering** at IIIT Sri City (2022 - 2026)
 
 ---
