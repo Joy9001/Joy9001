@@ -63,6 +63,7 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-%23FF6F61.svg?style=for-the-badge&logo=langgraph&logoColor=white)
 ![LangFuse](https://img.shields.io/badge/LangFuse-%23121011.svg?style=for-the-badge&logo=langfuse&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-7A43B6?style=for-the-badge&logo=ollama&logoColor=white)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-000000?style=for-the-badge&logo=litellm&logoColor=white)
 
 ### 💾 Database
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
