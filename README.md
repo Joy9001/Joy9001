@@ -103,6 +103,7 @@
 ---
 
 ## ❤️ Let's Connect!
+[Email Me](mailto:joymridha939@gmail.com)
 
 <p align="center">
   Feel free to reach out for collaborations, discussions, or just a friendly hello!
