@@ -17,7 +17,8 @@
 
 ## 🏢 About Me
 
-- 💼 Working as **Associate Software Engineer @ Couture.ai** (May 2025 - Current) 
+- 💼 Working as **Backend Engineer Intern @ WFYI** (October 2025 - Current)
+- 💼 Worked as **Associate Software Engineer Intern @ Couture.ai** (May 2025 - September 2025) 
 - 💼 Worked as **SDE Intern @ Qbtrix Innovations** (September 2024 - May 2025)
 - 🎓 Pursuing **B.Tech in Computer Science and Engineering** at IIIT Sri City (2022 - 2026)
 
