@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#12091f"/><stop offset="100%" stop-color="#0a1622"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#06B6D4"/>
+  </linearGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.6" fill="#8B5CF6" opacity=".16"/>
+  </pattern>
+  <clipPath id="round"><rect width="1000" height="280" rx="14"/></clipPath>
+</defs>
+
+<g clip-path="url(#round)">
+  <rect width="1000" height="280" fill="url(#bg)"/>
+  <rect width="1000" height="280" fill="url(#dots)"/>
+  <rect x="0" y="0" width="7" height="280" fill="url(#bar)"/>
+
+  <text x="64" y="118" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="54" font-weight="800"
+        fill="#f0f6fc" letter-spacing="-1.5">Joy Mridha</text>
+  <text x="66" y="156" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" fill="#22d3ee">building things that run while I sleep</text>
+  <text x="66" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#8b949e" letter-spacing=".6">Go &#183; Python &#183; TypeScript &#183; agentic AI</text>
+
+  <g transform="translate(676,62)">
+    <rect width="268" height="156" rx="10" fill="#161b22" stroke="#26303b"/>
+    <rect width="268" height="30" rx="10" fill="#26303b" opacity=".5"/>
+    <rect y="20" width="268" height="10" fill="#26303b" opacity=".5"/>
+    <circle cx="18" cy="15" r="5" fill="#ff5f57"/>
+    <circle cx="36" cy="15" r="5" fill="#febc2e"/>
+    <circle cx="54" cy="15" r="5" fill="#28c840"/>
+    <text x="20" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#7fdbca">$ ./joy --ship</text>
+    <text x="20" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#8b949e">building...</text>
+    <text x="20" y="110" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#c792ea">ok. sleeping now</text>
+    <text x="20" y="134" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#7fdbca">$ </text>
+    <rect x="34" y="124" width="8" height="14" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</g>
+</svg>
