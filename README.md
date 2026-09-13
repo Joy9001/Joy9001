@@ -1,113 +1,172 @@
-<h1 align="center">Hi 👋, I'm Joy</h1>
-<h3 align="center">A passionate Software Developer exploring the exciting world of technology!</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="Joy Mridha — Backend Engineer" src="assets/header-dark.svg">
+</picture>
 
-<p align="center">
-  <a href="https://linkedin.com/in/joy1010" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/JoyMridha1010" target="_blank"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"></a>
-  <a href="https://instagram.com/joym_1010" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
-</p>
+I build backend systems that have to stay correct when things fail — job queues,
+two-way syncs, agent pipelines. Most of my last year was **Go and PostgreSQL** in
+production, and the year before that was **agentic AI** back when LangGraph was
+the new thing. I like the problems where the interesting part isn't the happy path.
 
----
-
-## 🔭 Currently Focused On
-
-- Building scalable and efficient web applications.
-- Exploring the fascinating possibilities of Generative AI.
-- Deepening my understanding of system design principles.
-
-## 🏢 About Me
-
-- 💼 Working as **Backend Engineer Intern @ WFYI** (October 2025 - Current)
-- 💼 Worked as **Associate Software Engineer Intern @ Couture.ai** (May 2025 - September 2025) 
-- 💼 Worked as **SDE Intern @ Qbtrix Innovations** (September 2024 - May 2025)
-- 🎓 Pursuing **B.Tech in Computer Science and Engineering** at IIIT Sri City (2022 - 2026)
+Recently: **Software Engineer at WFYI** (intern → full-time, Oct 2025 – Aug 2026).
+Before that **Couture.ai** and **Qbtrix Innovations**.
+**B.Tech CSE, IIIT Sri City** — 9.17 CGPA, graduated July 2026.
 
 ---
 
-## 🛠️ Tech Stack
+## Systems I've built
 
-### 💻 Programming Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+Three that were genuinely hard. Expand for the architecture and the part that
+actually took the thinking.
 
-### 🌐 Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
-![SvelteKit](https://img.shields.io/badge/sveltekit-%23ff3e00.svg?style=for-the-badge&logo=svelte&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+<details>
+<summary><b>WhatsApp accounting assistant</b> — Go · PostgreSQL · Drive & Sheets API</summary>
 
-### ⚙️ Backend
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-%2337814A.svg?style=for-the-badge&logo=celery&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+<br>
 
-### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png"/> GenAI
-![LangChain](https://img.shields.io/badge/LangChain-%23008080.svg?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-%23FF6F61.svg?style=for-the-badge&logo=langgraph&logoColor=white)
-![LangFuse](https://img.shields.io/badge/LangFuse-%23121011.svg?style=for-the-badge&logo=langfuse&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-7A43B6?style=for-the-badge&logo=ollama&logoColor=white)
-![LiteLLM](https://img.shields.io/badge/LiteLLM-000000?style=for-the-badge&logo=litellm&logoColor=white)
+A conversational bookkeeper. Small businesses forward an invoice to WhatsApp; it
+lands in their own Google Drive and Sheets as GSTR-1, GSTR-2B and ledger rows.
 
-### 💾 Database
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+```mermaid
+flowchart LR
+    U[WhatsApp user] -->|webhook| API[Go API]
+    API --> Q[(job queue<br/>postgres)]
+    subgraph pool[worker pool - serialized per user]
+        W1[worker]
+        W2[worker]
+        W3[worker]
+    end
+    Q --> pool
+    pool --> G[Drive + Sheets<br/>GSTR-1 / 2B / ledger]
+    pool -.->|worker dies| R[stuck-job reaper]
+    R -.->|requeue| Q
+```
 
-### ☁️ DevOps & Tools
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Ruff](https://img.shields.io/badge/ruff-black?style=for-the-badge&logo=ruff&logoColor=white)
-![Pytest](https://img.shields.io/badge/pytest-%230A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)
+**The hard part.** There's no broker — correctness comes out of Postgres alone.
+Delivery is at-least-once, so every handler had to be safe to run twice. Two jobs
+for the same user must never touch their books concurrently, so serialization is
+enforced per-user *at the database level* rather than hoped for in application
+code. And a worker that dies mid-job leaves a row claimed forever, so a reaper
+sweeps and requeues it.
 
-### 🚀 Cloud & Deployment
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Glitch](https://img.shields.io/badge/glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white)
+The failure modes here aren't theoretical: a duplicate write means a business
+files the wrong numbers with the tax authority.
+
+</details>
+
+<details>
+<summary><b>TallyPrime ↔ cloud connector</b> — C# / .NET · Windows service · WPF</summary>
+
+<br>
+
+Two-way sync between a customer's desktop TallyPrime books and the cloud —
+**28 entity types up, 20 record types back**.
+
+```mermaid
+flowchart LR
+    T[(TallyPrime<br/>desktop books)]
+    subgraph svc[connector - self-updating windows service]
+        D[delta detection]
+        I[duplicate-safe writer]
+    end
+    T --> D
+    D -->|28 entity types up| CL[(cloud)]
+    CL -->|20 record types back| I
+    I --> T
+    P[WPF control panel] -.-> svc
+```
+
+**The hard part.** Tally gives you neither change tracking nor write idempotency.
+No "what changed since" query, no way to say "apply this once." So the connector
+brings both itself: its own delta detection to avoid re-syncing everything, and
+duplicate-safe writes so a retry can't double-post an entry.
+
+It also ships to machines nobody can SSH into — hence a self-updating Windows
+service with a control panel a non-technical user can actually operate.
+
+</details>
+
+<details>
+<summary><b>Multi-agent ETL parameter tuner</b> — Python · LangGraph · Ollama</summary>
+
+<br>
+
+Analysts were hand-tuning ETL configs in SQL against **500–600 GB** retail
+datasets. This replaced that with a multi-agent system.
+
+```mermaid
+flowchart TD
+    S[schema introspection] --> O[orchestrator]
+    A[pre-aggregated<br/>analytics] --> O
+    B[bounded sampling] --> O
+    O --> C1[sub-config agent]
+    O --> C2[sub-config agent]
+    O --> C3[sub-config agent]
+    C1 & C2 & C3 --> M[merge + validate]
+    M --> R[tuned ETL config]
+```
+
+**The hard part.** You cannot put 600 GB in front of an LLM. The whole design is
+about giving agents a faithful picture of data they can't see — schema
+introspection for structure, pre-aggregated analytics for distribution, bounded
+sampling for the rest. Sub-configs explore in parallel and merge.
+
+**Result:** configs within **5% of expert-chosen values**, turnaround from hours
+down to **~5 minutes** per product vertical.
+
+</details>
+
+<details>
+<summary><b>Also</b> — agent workflows, an LLM gateway, a Redis bridge</summary>
+
+<br>
+
+- **Interacly agent workflows** (LangGraph) — an orchestrator fans tasks to parallel
+  workers and can *pause mid-run to ask the user a question*, with RAG over Notion,
+  Drive, Discord and YouTube. Human-in-the-loop is easy to describe and unpleasant
+  to actually implement in a graph.
+- **Multi-provider LLM gateway** (FastAPI) — fronts OpenAI and Anthropic with
+  per-request token accounting and billing.
+- **NestJS ↔ Python over Redis** — moved document-processing status updates from
+  Pub/Sub to Streams, and made each document release its lock on *failure* as well
+  as completion. Pub/Sub drops messages when nobody's listening; Streams don't.
+- **Resumable Gemini batch pipeline** — Python, behind 1,000+ published articles.
+
+</details>
 
 ---
 
-## 💻 Code Editors
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=vscode&logoColor=white)
-![Zed](https://img.shields.io/badge/Zed-000000?style=for-the-badge&logo=zedindustries&logoColor=white)
+## Public work
+
+| | | |
+|---|---|---|
+| **[StreamX](https://github.com/Joy9001/StreamX)** | Role-based video platform — editors upload drafts, owners approve and publish straight to YouTube. Auth0 + JWT, per-role storage quotas, ownership transfers. | `React` `Node` `MongoDB` |
+| **[dsa-agent](https://github.com/Joy9001/dsa-agent)** | Agent that writes LeetCode notes for me. | `Python` |
+| **[Chat-Verse](https://github.com/Joy9001/Chat-Verse)** | Real-time chat. | `React` `Socket.io` |
+
+Most of what I build now is private or at work, so this profile is the smaller half
+of the picture.
 
 ---
 
-## 📊 GitHub Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joy9001&theme=catppuccin_mocha&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</p>
+## Stack
+
+**Daily** — Go (Gin) · Python (FastAPI) · Node (Express, NestJS) · PostgreSQL · Redis · TypeScript
+
+**Agentic AI** — LangGraph · LangChain · RAG pipelines · multi-agent orchestration · OpenAI / Anthropic / Gemini · Ollama
+
+**Also shipped with** — C# / .NET · Next.js · React · MongoDB · Prisma · Docker · AWS S3 · GitHub Actions
+
+Frontend I'm comfortable in — I shipped the Next.js app for our tax platform end to
+end — but backend is where I'd rather be.
 
 ---
 
-## ❤️ Let's Connect!
-[Email Me](mailto:joymridha939@gmail.com)
+## Reach me
 
-<p align="center">
-  Feel free to reach out for collaborations, discussions, or just a friendly hello!
-</p>
+[**Email**](mailto:joymridha939@gmail.com) · [**LinkedIn**](https://linkedin.com/in/joy1010) · [**X**](https://x.com/JoyMridha1010)
+
+Open to backend and GenAI/agentic engineering roles.
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joy9001&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" alt="Top languages" height="150">
