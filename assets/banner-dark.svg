@@ -20,7 +20,7 @@
   <text x="64" y="118" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="54" font-weight="800"
         fill="#f0f6fc" letter-spacing="-1.5">Joy Mridha</text>
   <text x="66" y="156" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" fill="#22d3ee">building things that run while I sleep</text>
-  <text x="66" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#8b949e" letter-spacing=".6">Go &#183; Python &#183; TypeScript &#183; agentic AI</text>
+  <text x="66" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#8b949e" letter-spacing=".6">Go &#183; Python &#183; TypeScript &#183; Agentic AI</text>
 
   <g transform="translate(676,62)">
     <rect width="268" height="156" rx="10" fill="#161b22" stroke="#26303b"/>
