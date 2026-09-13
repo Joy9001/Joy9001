@@ -11,7 +11,6 @@
 <a href="https://linkedin.com/in/joy1010"><img src="./assets/badge-linkedin.svg" alt="LinkedIn"></a>
 <a href="https://x.com/JoyMridha1010"><img src="./assets/badge-x.svg" alt="X"></a>
 <a href="mailto:joymridha939@gmail.com"><img src="./assets/badge-email.svg" alt="Email"></a>
-<img src="https://komarev.com/ghpvc/?username=Joy9001&style=for-the-badge&color=8B5CF6&label=VISITORS" alt="views">
 
 </div>
 
