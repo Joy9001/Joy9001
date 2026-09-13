@@ -6,7 +6,7 @@
   <img src="./assets/header-dark.svg?v=2" width="100%" alt="Joy Mridha">
 </picture>
 
-<br>
+<br><br>
 
 <a href="https://linkedin.com/in/joy1010"><img src="./assets/badge-linkedin.svg" alt="LinkedIn"></a>
 <a href="https://x.com/JoyMridha1010"><img src="./assets/badge-x.svg" alt="X"></a>
@@ -27,7 +27,7 @@ me := Joy{
 
 <img src="./assets/stack.svg" alt="stack" />
 
-<br>
+<br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg">
@@ -43,14 +43,14 @@ me := Joy{
   <img src="./profile-summary-card-output/github/4-productive-time.svg" width="41%" alt="commits by hour">
 </picture>
 
-<br>
+<br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
   <img src="./profile-3d-contrib/profile-green-animate.svg" width="88%" alt="3D contribution calendar">
 </picture>
 
-<br>
+<br><br>
 
 ### 👾 my commits, as a space shooter
 
