@@ -41,7 +41,6 @@ me := Joy{
 
 <img src="./assets/space-shooter.gif" width="88%" alt="space shooter" />
 
-<sub>regenerates itself daily — <a href="./.github/workflows/profile.yml">the workflow</a></sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:6366F1,100:8B5CF6&height=110&section=footer" width="100%" alt="" />
 
