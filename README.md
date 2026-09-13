@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:06B6D4&height=190&section=header&text=Joy%20Mridha&fontSize=62&fontColor=ffffff&fontAlignY=34&desc=building%20things%20that%20run%20while%20I%20sleep&descAlignY=54&descSize=16&animation=fadeIn" width="100%" alt="Joy Mridha" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:06B6D4&height=210&section=header&text=Joy%20Mridha&fontSize=56&fontColor=ffffff&fontAlignY=30&desc=building%20things%20that%20run%20while%20I%20sleep&descAlignY=58&descSize=17&animation=fadeIn" width="100%" alt="Joy Mridha" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=560&lines=go+%E2%80%A2+python+%E2%80%A2+typescript;i+make+agents+do+my+chores;if+i+do+it+twice%2C+i+automate+it;still+not+a+frontend+guy+%F0%9F%99%83" alt="about" />
 
