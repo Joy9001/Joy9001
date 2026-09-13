@@ -24,7 +24,7 @@ me := Joy{
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,python,ts,js,nodejs,nestjs,fastapi,react,nextjs,postgres,mongodb,redis,docker,linux,git,vercel&perline=8" alt="stack" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=go,python,typescript,javascript,nodejs,express,postgresql,mongodb,redis,langchain,gemini,ollama,docker,aws,gcp,cloudflare,react,nextjs&perline=9" alt="stack" />
 
 <br><br>
 
