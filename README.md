@@ -34,11 +34,6 @@ me := Joy{
   <img src="./profile-summary-card-output/github/0-profile-details.svg" width="98%" alt="GitHub profile summary">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg">
-  <img src="./profile-summary-card-output/github/4-productive-time.svg" width="60%" alt="commits by hour">
-</picture>
-
 <br><br>
 
 <picture>
