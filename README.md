@@ -1,172 +1,115 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:06B6D4&height=190&section=header&text=Joy%20Mridha&fontSize=62&fontColor=ffffff&fontAlignY=34&desc=building%20things%20that%20run%20while%20I%20sleep&descAlignY=54&descSize=16&animation=fadeIn" width="100%" alt="Joy Mridha" />
+
+<a href="https://github.com/Joy9001">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=560&lines=go+%E2%80%A2+python+%E2%80%A2+typescript;i+make+agents+do+my+chores;if+i+do+it+twice%2C+i+automate+it;still+not+a+frontend+guy+%F0%9F%99%83" alt="what I'm about" />
+</a>
+
+<br><br>
+
+<a href="https://linkedin.com/in/joy1010"><img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://x.com/JoyMridha1010"><img src="https://img.shields.io/badge/X-0F172A?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+<a href="mailto:joymridha939@gmail.com"><img src="https://img.shields.io/badge/Email-06B6D4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<img src="https://komarev.com/ghpvc/?username=Joy9001&style=for-the-badge&color=8B5CF6&label=VISITORS" alt="views">
+
+</div>
+
+<br>
+
+```go
+package main
+
+type Joy struct {
+    Location  string
+    Writes    []string
+    Obsession string
+    Editor    string
+}
+
+func main() {
+    me := Joy{
+        Location:  "Kolkata, India 🇮🇳",
+        Writes:    []string{"Go", "Python", "TypeScript"},
+        Obsession: "agents that do the boring parts",
+        Editor:    "Zed, and VS Code when I'm weak",
+    }
+    me.BuildSomething() // ← currently running
+}
+```
+
+<br>
+
+<div align="center">
+
+### 🧰 things I reach for
+
+<img src="https://skillicons.dev/icons?i=go,python,ts,js,nodejs,nestjs,fastapi,react,nextjs,postgres,mongodb,redis,docker,linux,git,vercel&perline=8" alt="stack" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 📊 the numbers
+
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="98%" alt="profile details" />
+
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="41%" alt="repos per language" />
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="41%" alt="most commit language" />
+
+<img src="./profile-summary-card-output/github_dark/3-stats.svg" width="41%" alt="stats" />
+<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="41%" alt="productive time" />
+
+<img src="https://streak-stats.demolab.com?user=Joy9001&theme=nord&hide_border=true&background=0D1117&ring=8B5CF6&fire=06B6D4&currStreakLabel=8B5CF6" width="60%" alt="streak" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 🐍 watch a snake eat my commits
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Joy Mridha — Backend Engineer" src="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg">
+  <img src="./assets/snake-dark.svg" width="100%" alt="contribution snake">
 </picture>
 
-I build backend systems that have to stay correct when things fail — job queues,
-two-way syncs, agent pipelines. Most of my last year was **Go and PostgreSQL** in
-production, and the year before that was **agentic AI** back when LangGraph was
-the new thing. I like the problems where the interesting part isn't the happy path.
-
-Recently: **Software Engineer at WFYI** (intern → full-time, Oct 2025 – Aug 2026).
-Before that **Couture.ai** and **Qbtrix Innovations**.
-**B.Tech CSE, IIIT Sri City** — 9.17 CGPA, graduated July 2026.
+</div>
 
 ---
 
-## Systems I've built
+<div align="center">
 
-Three that were genuinely hard. Expand for the architecture and the part that
-actually took the thinking.
+### 🧊 my year, in three dimensions
 
-<details>
-<summary><b>WhatsApp accounting assistant</b> — Go · PostgreSQL · Drive & Sheets API</summary>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="88%" alt="3D contribution calendar" />
 
-<br>
-
-A conversational bookkeeper. Small businesses forward an invoice to WhatsApp; it
-lands in their own Google Drive and Sheets as GSTR-1, GSTR-2B and ledger rows.
-
-```mermaid
-flowchart LR
-    U[WhatsApp user] -->|webhook| API[Go API]
-    API --> Q[(job queue<br/>postgres)]
-    subgraph pool[worker pool - serialized per user]
-        W1[worker]
-        W2[worker]
-        W3[worker]
-    end
-    Q --> pool
-    pool --> G[Drive + Sheets<br/>GSTR-1 / 2B / ledger]
-    pool -.->|worker dies| R[stuck-job reaper]
-    R -.->|requeue| Q
-```
-
-**The hard part.** There's no broker — correctness comes out of Postgres alone.
-Delivery is at-least-once, so every handler had to be safe to run twice. Two jobs
-for the same user must never touch their books concurrently, so serialization is
-enforced per-user *at the database level* rather than hoped for in application
-code. And a worker that dies mid-job leaves a row claimed forever, so a reaper
-sweeps and requeues it.
-
-The failure modes here aren't theoretical: a duplicate write means a business
-files the wrong numbers with the tax authority.
-
-</details>
-
-<details>
-<summary><b>TallyPrime ↔ cloud connector</b> — C# / .NET · Windows service · WPF</summary>
-
-<br>
-
-Two-way sync between a customer's desktop TallyPrime books and the cloud —
-**28 entity types up, 20 record types back**.
-
-```mermaid
-flowchart LR
-    T[(TallyPrime<br/>desktop books)]
-    subgraph svc[connector - self-updating windows service]
-        D[delta detection]
-        I[duplicate-safe writer]
-    end
-    T --> D
-    D -->|28 entity types up| CL[(cloud)]
-    CL -->|20 record types back| I
-    I --> T
-    P[WPF control panel] -.-> svc
-```
-
-**The hard part.** Tally gives you neither change tracking nor write idempotency.
-No "what changed since" query, no way to say "apply this once." So the connector
-brings both itself: its own delta detection to avoid re-syncing everything, and
-duplicate-safe writes so a retry can't double-post an entry.
-
-It also ships to machines nobody can SSH into — hence a self-updating Windows
-service with a control panel a non-technical user can actually operate.
-
-</details>
-
-<details>
-<summary><b>Multi-agent ETL parameter tuner</b> — Python · LangGraph · Ollama</summary>
-
-<br>
-
-Analysts were hand-tuning ETL configs in SQL against **500–600 GB** retail
-datasets. This replaced that with a multi-agent system.
-
-```mermaid
-flowchart TD
-    S[schema introspection] --> O[orchestrator]
-    A[pre-aggregated<br/>analytics] --> O
-    B[bounded sampling] --> O
-    O --> C1[sub-config agent]
-    O --> C2[sub-config agent]
-    O --> C3[sub-config agent]
-    C1 & C2 & C3 --> M[merge + validate]
-    M --> R[tuned ETL config]
-```
-
-**The hard part.** You cannot put 600 GB in front of an LLM. The whole design is
-about giving agents a faithful picture of data they can't see — schema
-introspection for structure, pre-aggregated analytics for distribution, bounded
-sampling for the rest. Sub-configs explore in parallel and merge.
-
-**Result:** configs within **5% of expert-chosen values**, turnaround from hours
-down to **~5 minutes** per product vertical.
-
-</details>
-
-<details>
-<summary><b>Also</b> — agent workflows, an LLM gateway, a Redis bridge</summary>
-
-<br>
-
-- **Interacly agent workflows** (LangGraph) — an orchestrator fans tasks to parallel
-  workers and can *pause mid-run to ask the user a question*, with RAG over Notion,
-  Drive, Discord and YouTube. Human-in-the-loop is easy to describe and unpleasant
-  to actually implement in a graph.
-- **Multi-provider LLM gateway** (FastAPI) — fronts OpenAI and Anthropic with
-  per-request token accounting and billing.
-- **NestJS ↔ Python over Redis** — moved document-processing status updates from
-  Pub/Sub to Streams, and made each document release its lock on *failure* as well
-  as completion. Pub/Sub drops messages when nobody's listening; Streams don't.
-- **Resumable Gemini batch pipeline** — Python, behind 1,000+ published articles.
-
-</details>
+</div>
 
 ---
 
-## Public work
+<div align="center">
 
-| | | |
-|---|---|---|
-| **[StreamX](https://github.com/Joy9001/StreamX)** | Role-based video platform — editors upload drafts, owners approve and publish straight to YouTube. Auth0 + JWT, per-role storage quotas, ownership transfers. | `React` `Node` `MongoDB` |
-| **[dsa-agent](https://github.com/Joy9001/dsa-agent)** | Agent that writes LeetCode notes for me. | `Python` |
-| **[Chat-Verse](https://github.com/Joy9001/Chat-Verse)** | Real-time chat. | `React` `Socket.io` |
+### 👾 and the same commits, as a space shooter
 
-Most of what I build now is private or at work, so this profile is the smaller half
-of the picture.
+<img src="./assets/space-shooter.gif" width="88%" alt="contribution space shooter" />
 
----
+<sub>every one of these regenerates itself daily — the workflow is <a href="./.github/workflows/profile.yml">right here</a>, no external services to rot</sub>
 
-## Stack
-
-**Daily** — Go (Gin) · Python (FastAPI) · Node (Express, NestJS) · PostgreSQL · Redis · TypeScript
-
-**Agentic AI** — LangGraph · LangChain · RAG pipelines · multi-agent orchestration · OpenAI / Anthropic / Gemini · Ollama
-
-**Also shipped with** — C# / .NET · Next.js · React · MongoDB · Prisma · Docker · AWS S3 · GitHub Actions
-
-Frontend I'm comfortable in — I shipped the Next.js app for our tax platform end to
-end — but backend is where I'd rather be.
+</div>
 
 ---
 
-## Reach me
+<div align="center">
 
-[**Email**](mailto:joymridha939@gmail.com) · [**LinkedIn**](https://linkedin.com/in/joy1010) · [**X**](https://x.com/JoyMridha1010)
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=nord&border=true" alt="quote" />
 
-Open to backend and GenAI/agentic engineering roles.
+<br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joy9001&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" alt="Top languages" height="150">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:6366F1,100:8B5CF6&height=120&section=footer" width="100%" alt="" />
+
+</div>
