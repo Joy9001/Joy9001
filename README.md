@@ -35,12 +35,8 @@ me := Joy{
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg">
-  <img src="./profile-summary-card-output/github/2-most-commit-language.svg" width="41%" alt="top languages by commit">
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg">
-  <img src="./profile-summary-card-output/github/4-productive-time.svg" width="41%" alt="commits by hour">
+  <img src="./profile-summary-card-output/github/4-productive-time.svg" width="60%" alt="commits by hour">
 </picture>
 
 <br><br>
