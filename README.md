@@ -30,14 +30,26 @@ me := Joy{
 
 <br>
 
-<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="98%" alt="profile" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg">
+  <img src="./profile-summary-card-output/github/0-profile-details.svg" width="98%" alt="GitHub profile summary">
+</picture>
 
-<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="41%" alt="languages" />
-<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="41%" alt="productive time" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg">
+  <img src="./profile-summary-card-output/github/2-most-commit-language.svg" width="41%" alt="top languages by commit">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg">
+  <img src="./profile-summary-card-output/github/4-productive-time.svg" width="41%" alt="commits by hour">
+</picture>
 
 <br>
 
-<img src="./profile-3d-contrib/profile-night-view.svg" width="88%" alt="3D contributions" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="88%" alt="3D contribution calendar">
+</picture>
 
 <br>
 
