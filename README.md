@@ -1,50 +1,21 @@
-<div align="center">
+# Joy Mridha
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg?v=2">
-  <img src="./assets/header-dark.svg?v=2" width="100%" alt="Joy Mridha">
-</picture>
+**Backend engineer · Kolkata, India**
 
-<br><br>
+I work mostly in Python and Go, with a focus on data ingestion, traceable calculations, and tools people can run themselves.
 
-<a href="https://linkedin.com/in/joy1010"><img src="./assets/badge-linkedin.svg" alt="LinkedIn"></a>
-<a href="https://x.com/JoyMridha1010"><img src="./assets/badge-x.svg" alt="X"></a>
-<a href="mailto:joymridha939@gmail.com"><img src="./assets/badge-email.svg" alt="Email"></a>
+## Selected work
 
-</div>
+### [Arno](https://github.com/Joy9001/Arno)
 
-```go
-me := Joy{
-    Location:  "Kolkata, India 🇮🇳",
-    Writes:    []string{"Go", "Python", "TypeScript"},
-    Obsession: "agents that do the boring parts",
-    Editor:    "Zed, and VS Code when I'm weak",
-}
-```
+A self-hosted personal finance app for India. Import bank and card statements, see where your money went, and test decisions like prepaying a loan. Arno records transactions in a PostgreSQL double-entry ledger and links spending totals to the entries behind them. For custom what-if questions, it runs Python in a sandbox and shows the calculation it used.
 
-<div align="center">
+[System design](https://github.com/Joy9001/Arno/blob/main/docs/arno/system-design.md) · [Self-hosting and recovery](https://github.com/Joy9001/Arno/blob/main/docs/arno/self-hosting.md)
 
-<img src="./assets/stack.svg" alt="stack" />
+### [tldw](https://github.com/Joy9001/tldw)
 
-<br><br>
+Turn a screen recording or YouTube video into a how-to, a PR description, or notes with screenshots. The Claude Code skill reuses captions when available, transcribes recordings locally when needed, and ranks scene changes with FFmpeg to find frames worth including.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg">
-  <img src="./profile-summary-card-output/github/0-profile-details.svg" width="98%" alt="GitHub profile summary">
-</picture>
+[How it works](https://github.com/Joy9001/tldw#how-it-works)
 
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" width="88%" alt="3D contribution calendar">
-</picture>
-
-<br><br>
-
-### 👾 my commits, as a space shooter
-
-<img src="./assets/space-shooter.gif" width="88%" alt="space shooter" />
-
-</div>
+[LinkedIn](https://linkedin.com/in/joy1010) · [Email](mailto:joymridha939@gmail.com)

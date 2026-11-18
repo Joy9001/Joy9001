@@ -1,17 +1,14 @@
-# tools
+# Archived profile visuals
 
 `gen-banner.py` builds `assets/header-dark.svg` and `assets/header-light.svg`,
-the banner at the top of the profile README.
+the banners from the previous profile README. The visual generation workflow
+is available for manual runs.
 
 ```bash
 python tools/gen-banner.py
 ```
 
 Edit the colours in `T` or the text in `build()`, rerun, commit the SVGs.
-
-**After changing the banner, bump the `?v=` query on the `<img>` in README.md.**
-GitHub's image proxy caches by URL, so editing the file in place can keep
-serving the old image indefinitely.
 
 ## Fonts
 

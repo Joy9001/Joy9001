@@ -1,8 +1,6 @@
-name: profile visuals
+name: Generate archived profile visuals
 
 on:
-  schedule:
-    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -25,7 +23,7 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 5
           AUTO_PUSH: false
-      - name: keep only the two themes the README uses
+      - name: keep the GitHub light and dark themes
         run: |
           find profile-summary-card-output -mindepth 1 -maxdepth 1 -type d ! -name github_dark ! -name github -exec rm -rf {} +
           git config user.name github-actions
