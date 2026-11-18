@@ -18,4 +18,8 @@ Turn a screen recording or YouTube video into a how-to, a PR description, or not
 
 [How it works](https://github.com/Joy9001/tldw#how-it-works)
 
+## Technologies
+
+![Go, Python, TypeScript, JavaScript, Node.js, Express, PostgreSQL, MongoDB, Redis, LangChain, Gemini, Ollama, Docker, AWS, Google Cloud, Cloudflare, React, and Next.js](./assets/stack.svg)
+
 [LinkedIn](https://linkedin.com/in/joy1010) · [Email](mailto:joymridha939@gmail.com)
